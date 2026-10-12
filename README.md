@@ -58,6 +58,7 @@ CodeLens compiles directly to optimized, stripped machine code with zero Node.js
 3. **Validação Criptográfica em Tempo Real:** Compara assinaturas SHA-256 de alterações locais e sincroniza cirurgicamente apenas os módulos modificados sem reprocessamento massivo.
 4. **Isolamento Atômico de Dependências:** Extrai blocos de código com fechamento de dependências e tipos locais, eliminando alucinações de referências quebradas.
 5. **Zero Vazamento de Código:** Todo o processamento executa estritamente local via protocolo STDIO MCP sem enviar linhas de código ou repositórios para servidores externos.
+6. **Byte-Stable Context Packing:** Ordenação canônica total dos pacotes que garante ativação do Prompt Prefix Cache em modelos como Claude e Gemini com 90% de desconto adicional.
 
 ---
 
