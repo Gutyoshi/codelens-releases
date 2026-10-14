@@ -60,7 +60,7 @@ echo -e "${GRAY}[1/3] Plataforma detectada: ${CYAN}${PLATFORM_DESC}${RESET}"
 INSTALL_DIR="$HOME/.local/bin"
 mkdir -p "$INSTALL_DIR"
 
-DOWNLOAD_URL="https://codelens.cloud/${PACKAGE}"
+DOWNLOAD_URL="https://github.com/Gutyoshi/codelens-releases/releases/latest/download/${PACKAGE}"
 TEMP_ARCHIVE="/tmp/${PACKAGE}"
 EXTRACT_DIR="/tmp/codelens_extracted_$$"
 

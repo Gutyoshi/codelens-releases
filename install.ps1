@@ -25,7 +25,7 @@ Write-Host ""
 
 $installDir = "$env:LOCALAPPDATA\Programs\CodeLens"
 $exePath = "$installDir\codelens.exe"
-$zipUrl = "https://codelens.cloud/codelens-win-x64.zip"
+$zipUrl = "https://github.com/Gutyoshi/codelens-releases/releases/latest/download/codelens-win-x64.zip"
 $tempZip = "$env:TEMP\codelens-win-x64.zip"
 
 Write-Host "$GRAY[1/3] Preparando diretório de instalação: $installDir$RESET"
